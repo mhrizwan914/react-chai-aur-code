@@ -1,9 +1,10 @@
 import Chai from "./Chai"
 
 function App() {
+  let user = "Rizwan"
   return (
     <>
-      <h1>Hello Rizwan - Vite</h1>
+      <h1>Hello {user} - Vite</h1>
       <Chai />
     </>
   )
